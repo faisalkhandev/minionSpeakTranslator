@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #F2C94C;
+    --width-break: 600px;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Kalam',
+        cursive;
+}
+
+nav {
+    Display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+    font-size: medium;
+}
+
+#translate-input {
+    display: flex;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+#translate-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-family: 'kalam';
+    border-radius: 10px;
+}
+
+#btn-img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+#header-image {
+    width: 130px;
+}
