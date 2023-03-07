@@ -11,6 +11,13 @@ body {
         cursive;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 nav {
     Display: flex;
     justify-content: center;
@@ -21,9 +28,8 @@ nav {
 }
 
 #translate-input {
-    display: flex;
-    margin: auto;
     margin-top: 5rem;
+    padding: 1rem;
 }
 
 #translate-btn {
@@ -47,4 +53,33 @@ nav {
 
 #header-image {
     width: 130px;
+}
+
+#heading {
+    text-align: center;
+}
+
+#translate-pic {
+
+    width: 40px;
+    vertical-align: middle;
+}
+
+.translate-output {
+    border: 1px solid black;
+    height: 15vh;
+    padding: 1rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#footer-para {
+    width: 30%;
 }
