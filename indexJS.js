@@ -24,10 +24,6 @@ let getTranslated = () => {
         })
         .catch(handleTheError)
 
-
-    let
-
-
 }
 
 btnTranslate.addEventListener("click", getTranslated)
