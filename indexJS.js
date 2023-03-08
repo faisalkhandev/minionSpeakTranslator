@@ -18,7 +18,7 @@ let getTranslated = () => {
     let inputTxt = inputTranslate.value;
 
     fetch(getTranslatedURl(inputTxt))
-        .then(response => response.json)
+        .then(response => response.json())
         .then(json => {
             let translatedTxt = json.contents.translated;
             outTranslate.innerText = translatedTxt
