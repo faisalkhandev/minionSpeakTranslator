@@ -9,7 +9,8 @@ let getTranslatedURl = (text) => {
 }
 
 let handleTheError = (error) => {
-    alert("This API can be called only 5 times an hour, come back after an hour ")
+    // alert("This API can be called only 5 times an hour, come back after an hour ")
+    alert(error)
 }
 
 let getTranslated = () => {
