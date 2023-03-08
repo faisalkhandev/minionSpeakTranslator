@@ -65,7 +65,7 @@ nav {
     vertical-align: middle;
 }
 
-.translate-output {
+#translate-output {
     border: 1px solid black;
     height: 15vh;
     padding: 1rem;
