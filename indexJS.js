@@ -1,6 +1,7 @@
 let inputTranslate = document.getElementById('translate-input');
 let btnTranslate = document.getElementById('translateBtn');
 let outTranslate = document.getElementById('translate-output');
+let btnClearButton = document.getElementById('clear')
 
 let serverURl = "https://api.funtranslations.com/translate/minion.json"
 
@@ -9,8 +10,7 @@ let getTranslatedURl = (text) => {
 }
 
 let handleTheError = (error) => {
-    // alert("This API can be called only 5 times an hour, come back after an hour ")
-    alert(error)
+    alert("This API can be called only 5 times an hour, come back after an hour ")
 }
 
 let getTranslated = () => {
@@ -27,5 +27,12 @@ let getTranslated = () => {
 
 }
 
+let clearEverything = () => {
+    inputTranslate.value = ""
+    outTranslate.innerText = "";
+
+}
+
+btnClearButton.addEventListener("click", clearEverything)
 btnTranslate.addEventListener("click", getTranslated)
 

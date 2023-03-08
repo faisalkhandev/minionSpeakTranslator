@@ -71,6 +71,21 @@ nav {
     padding: 1rem;
 }
 
+#clear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-family: 'kalam';
+    border-radius: 10px;
+    font-size: 20px;
+}
+
 footer {
     background-color: var(--primary-color);
     display: flex;
