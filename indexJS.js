@@ -6,7 +6,7 @@ let btnClearButton = document.getElementById('clear')
 let serverURl = "https://api.funtranslations.com/translate/minion.json"
 
 let getTranslatedURl = (text) => {
-    return serverURl + "?" + "text=" + text;
+    return serverURl + "?" + "text=" + text; //getting text from API
 }
 
 let handleTheError = (error) => {
